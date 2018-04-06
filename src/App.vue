@@ -34,22 +34,22 @@
         nextPage: currentPage < 3
       }"
     />
-    <designs
+    <!-- <designs
       id="4"
       :class="{
         currentPage: currentPage === 4,
         prePage: currentPage > 4,
         nextPage: currentPage < 4
       }"
-    />
-    <articles
+    /> -->
+    <!-- <articles
       id="5"
       :class="{
         currentPage: currentPage === 5,
         prePage: currentPage > 5,
         nextPage: currentPage < 5
       }"
-    />
+    /> -->
   </div>
 </template>
 

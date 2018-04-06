@@ -20,34 +20,34 @@ const articles = __RES__.contentsSortedByTime.slice(0, 6).map(art => {
 })
 
 const base = {
-  title: 'Jason 的简历',
-  name: '陈俊毅',
+  title: ' 大鱼吃小鱼@ 的简历 ',
+  name: '易东英',
   shortDescription: '大四学生，前端工程师进阶中...',
-  description: '高中接触 Web 开发和设计，上了大学正式学习前端、PHP、Node.js，大一开始在校不间断负责多个公众号、小程序的开发。目前在腾讯公司 Web 前端开发岗位实习。',
+  description: '大二开打印工作室，为满足客户需求，接触前端。大三开始系统性的学习前端知识，做过移动端应用、小程序项目，也开发过pc端项目，目前在信盛通讯的研发部做前端开发工作。',
   infomations: [{
     icon: 'https://cdn.ijason.cc/static/svgs/info/birthday.svg',
     key: '生日',
-    value: '1996.2.11'
+    value: '1995.12.22'
   }, {
     icon: 'https://cdn.ijason.cc/static/svgs/info/education.svg',
     key: '教育经历',
-    value: '深圳大学 · 通信工程'
+    value: '江西农业大学 · 计算机科学与技术'
   }, {
     icon: 'https://cdn.ijason.cc/static/svgs/info/nowCity.svg',
     key: '居住地',
-    value: '广东 · 深圳'
+    value: '广东 · 广州'
   }, {
     icon: 'https://cdn.ijason.cc/static/svgs/info/email.svg',
     key: '邮箱',
-    value: 'jason@iszu.cn'
+    value: 'lyidongy@gmail.com'
   }, {
     icon: 'https://cdn.ijason.cc/static/svgs/info/phone.svg',
     key: '手机号',
-    value: '+86 13128931074'
+    value: '+86 15070985787'
   }, {
     icon: 'https://cdn.ijason.cc/static/svgs/info/company.svg',
     key: '公司',
-    value: '腾讯 · 深圳'
+    value: '信盛通讯·广州 '
   }],
   skills: [{
     value: 'HTML',
@@ -70,15 +70,15 @@ const base = {
       'border-color': '#8ccf00'
     }
   }, {
-    value: 'PHP',
-    logo: 'https://cdn.ijason.cc/static/images/logos/php.png',
+    value: 'react',
+    logo: '../../static/images/skills/react.png',
     style: {
       background: 'linear-gradient(to bottom, #8093d1 , #7b8ec9)',
       'border-color': '#8093d1'
     }
   }, {
-    value: 'Python',
-    logo: 'https://cdn.ijason.cc/static/images/logos/python.png'
+    value: 'VUE',
+    logo: '../../static/images/skills/VUE.png'
   }, {
     value: 'Photoshop',
     logo: 'https://cdn.ijason.cc/static/images/logos/photoshop.png',
@@ -86,29 +86,22 @@ const base = {
       background: '#001d26',
       border: '5px solid #00c8ff'
     }
-  }, {
-    value: 'Sketch',
-    logo: 'https://cdn.ijason.cc/static/images/logos/sketch.png',
-    style: {
-      background: 'linear-gradient(to bottom, #1d0f4f , #130a33)',
-      'border-color': '#1d0f4f'
-    }
   }],
   projects: [{
-    image: 'https://cdn.ijason.cc/static/images/projects/goszu.jpg',
-    desc: '一个为深圳大学学生开发的网址导航，收集了大部分学生常用或者难找的网站。前端使用 Vue.js 开发，后端使用 PHP 和 MySQL 搭建，用户首次访问即缓存网站数据在 LocalStorage 里面。',
-    url: 'http://www.goszu.com/',
-    qrcode: 'https://cdn.ijason.cc/static/images/projects/goszu_qrcode.png'
+    image: 'https://xiaoyu7.oss-cn-beijing.aliyuncs.com/operate.png?Expires=1523088295&OSSAccessKeyId=TMP.AQE7a85YSz8yzDYIt6K4pdBrVuqehW1Vv0_JdU3YMsO4Iho_ne8KFXzdoRjbAAAwLAIURgusrA1zS2EIBnKDTSFofYqCeocCFEI23kb2yCuqzcT15TinlOIzCDUj&Signature=Jaql08fi5H77EQjv3L7sWXzLc0A%3D',
+    desc: ' 这是一个出租空间的运营管理后台系统，微信端和选址端的数据可以在这里进行管理，前端使用dva-cli脚手架搭建项目，配合react全家桶和antd-design进行开发',
+    url: 'http://operate.renrencell.com/'
+    // qrcode: 'https://cdn.ijason.cc/static/images/projects/goszu_qrcode.png'
   }, {
-    image: 'https://cdn.ijason.cc/static/images/projects/powerusage.jpg',
-    desc: '这是一个宿舍电费查询工具，每天会自动抓取当天剩余可用电量，并可根据最近一周使用情况计算出剩余可用的天数。同时，在电费不足的时候，会自动通过微信公众号发送模板消息提醒用户。',
-    url: 'http://www.wacxt.cn/powerusage/',
-    qrcode: 'https://cdn.ijason.cc/static/images/projects/powerusage_qrcode.png'
+    image: 'https://xiaoyu7.oss-cn-beijing.aliyuncs.com/hackManager.png?Expires=1523088220&OSSAccessKeyId=TMP.AQE7a85YSz8yzDYIt6K4pdBrVuqehW1Vv0_JdU3YMsO4Iho_ne8KFXzdoRjbAAAwLAIURgusrA1zS2EIBnKDTSFofYqCeocCFEI23kb2yCuqzcT15TinlOIzCDUj&Signature=fTZbRoaJMm%2FVeES8OlRUg6ZbiyI%3D',
+    desc: '这个项目是一个静态页面后台管理系统，前台页面需要显示的资源在后台都可以管理， 采用的是前后端分离的开发模式，前端采用vue2.0全家桶，后端采用nodeJS + mongoDB，使用express框架搭建服务器。',
+    url: 'https://github.com/yidongying/hack'
+    // qrcode: 'https://cdn.ijason.cc/static/images/projects/powerusage_qrcode.png'
   }, {
-    image: 'https://cdn.ijason.cc/static/images/projects/szucheduleapp.jpg',
-    desc: '一款为深圳大学学生开发的课表查询 App，可以自动同步教务处网站上的课程信息，随时随地查询课程表及课程详细信息。是一款使用 Vue.js 三件套和 Cordove 开发的一款 Hybrid App。',
-    url: 'https://github.com/heyszu/szuschedule-app',
-    qrcode: 'https://cdn.ijason.cc/static/images/projects/szucheduleapp_qrcode.png'
+    image: 'https://xiaoyu7.oss-cn-beijing.aliyuncs.com/merge_order.png?Expires=1523088353&OSSAccessKeyId=TMP.AQE7a85YSz8yzDYIt6K4pdBrVuqehW1Vv0_JdU3YMsO4Iho_ne8KFXzdoRjbAAAwLAIURgusrA1zS2EIBnKDTSFofYqCeocCFEI23kb2yCuqzcT15TinlOIzCDUj&Signature=cOfQu6HFtD%2FjNW9nob1U%2BA1GwuQ%3D',
+    desc: '用vue-cli实现的移动端的单页应用，移动端适配采用的是阿里高清方案，布局采用rem为单位，主要技术采用vue2.0全家桶+webapck+axios+express，数据用mock模拟，实现了基本的登录注册、添加订单、结算订单等',
+    url: 'https://github.com/yidongying/vue-elm-spa'
+    // qrcode: 'https://cdn.ijason.cc/static/images/projects/szucheduleapp_qrcode.png'
   }],
   projectRefer: '在我的 Github 查看更多项目',
   designs: {

@@ -1,9 +1,9 @@
 <template>
   <div class="container">
-    <div class="selector" :class="$store.state.lang">
+    <!-- <div class="selector" :class="$store.state.lang">
       <span class="langCn" @click="changeLanguage('cn')" @touchstart="changeLanguage('cn')">中</span>
       <span class="langEn" @click="changeLanguage('en')" @touchstart="changeLanguage('en')">Eng</span>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -71,7 +71,7 @@ export default {
 
       width: 34px;
       height: 34px;
-      
+
       background: rgba(0,0,0,.75);
       border-radius: 17px;
       transition: all 300ms ease;
