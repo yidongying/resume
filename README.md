@@ -1,5 +1,5 @@
 一份在线简历：
-预览：<a href='https://yidongying.github.io'>我的简历</a>
+预览：<a href='https://yidongying.github.io/resume/index.html'>我的简历</a>
 
 
 ## Build Setup
