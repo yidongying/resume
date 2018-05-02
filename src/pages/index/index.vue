@@ -1,7 +1,7 @@
 <template>
   <div class="page index">
     <div class="avatar">
-      <img src="static/images/projects/favicon.png">
+      <img src="static/images/favicon.png">
     </div>
     <h1 class="name">{{ $store.state.data.website.name }}</h1>
     <p class="shortDescription">{{ $store.state.data.website.shortDescription }}</p>
