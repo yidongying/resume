@@ -88,17 +88,17 @@ const base = {
     }
   }],
   projects: [{
-    image: 'https://xiaoyu7.oss-cn-beijing.aliyuncs.com/operate.png?Expires=1523088295&OSSAccessKeyId=TMP.AQE7a85YSz8yzDYIt6K4pdBrVuqehW1Vv0_JdU3YMsO4Iho_ne8KFXzdoRjbAAAwLAIURgusrA1zS2EIBnKDTSFofYqCeocCFEI23kb2yCuqzcT15TinlOIzCDUj&Signature=Jaql08fi5H77EQjv3L7sWXzLc0A%3D',
+    image: 'static/images/projects/operate.png',
     desc: ' 这是一个出租空间的运营管理后台系统，微信端和选址端的数据可以在这里进行管理，前端使用dva-cli脚手架搭建项目，配合react全家桶和antd-design进行开发',
     url: 'http://operate.renrencell.com/'
     // qrcode: 'https://cdn.ijason.cc/static/images/projects/goszu_qrcode.png'
   }, {
-    image: 'https://xiaoyu7.oss-cn-beijing.aliyuncs.com/hackManager.png?Expires=1523088220&OSSAccessKeyId=TMP.AQE7a85YSz8yzDYIt6K4pdBrVuqehW1Vv0_JdU3YMsO4Iho_ne8KFXzdoRjbAAAwLAIURgusrA1zS2EIBnKDTSFofYqCeocCFEI23kb2yCuqzcT15TinlOIzCDUj&Signature=fTZbRoaJMm%2FVeES8OlRUg6ZbiyI%3D',
+    image: 'static/images/projects/hackManager.png',
     desc: '这个项目是一个静态页面后台管理系统，前台页面需要显示的资源在后台都可以管理， 采用的是前后端分离的开发模式，前端采用vue2.0全家桶，后端采用nodeJS + mongoDB，使用express框架搭建服务器。',
     url: 'https://github.com/yidongying/hack'
     // qrcode: 'https://cdn.ijason.cc/static/images/projects/powerusage_qrcode.png'
   }, {
-    image: 'https://xiaoyu7.oss-cn-beijing.aliyuncs.com/merge_order.png?Expires=1523088353&OSSAccessKeyId=TMP.AQE7a85YSz8yzDYIt6K4pdBrVuqehW1Vv0_JdU3YMsO4Iho_ne8KFXzdoRjbAAAwLAIURgusrA1zS2EIBnKDTSFofYqCeocCFEI23kb2yCuqzcT15TinlOIzCDUj&Signature=cOfQu6HFtD%2FjNW9nob1U%2BA1GwuQ%3D',
+    image: 'static/images/projects/merge_order.png',
     desc: '用vue-cli实现的移动端的单页应用，移动端适配采用的是阿里高清方案，布局采用rem为单位，主要技术采用vue2.0全家桶+webapck+axios+express，数据用mock模拟，实现了基本的登录注册、添加订单、结算订单等',
     url: 'https://github.com/yidongying/vue-elm-spa'
     // qrcode: 'https://cdn.ijason.cc/static/images/projects/szucheduleapp_qrcode.png'

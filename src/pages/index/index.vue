@@ -1,7 +1,7 @@
 <template>
   <div class="page index">
     <div class="avatar">
-      <img src="https://xiaoyu7.oss-cn-beijing.aliyuncs.com/head_little.jpg?Expires=1523024597&OSSAccessKeyId=TMP.AQE7a85YSz8yzDYIt6K4pdBrVuqehW1Vv0_JdU3YMsO4Iho_ne8KFXzdoRjbAAAwLAIURgusrA1zS2EIBnKDTSFofYqCeocCFEI23kb2yCuqzcT15TinlOIzCDUj&Signature=h9WsScLa9v528a5CnypmZZw1hvk%3D">
+      <img src="static/images/projects/header_little.png">
     </div>
     <h1 class="name">{{ $store.state.data.website.name }}</h1>
     <p class="shortDescription">{{ $store.state.data.website.shortDescription }}</p>
